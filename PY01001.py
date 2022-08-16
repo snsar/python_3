@@ -1,10 +1,5 @@
-a = input()
-a = int(a)
-<<<<<<< HEAD
+a = int(input())
 if a & 1:
-=======
-if a % 1 :
->>>>>>> origin/main
     print('LE')
 else: 
     print('CHAN')
