@@ -1,8 +1,12 @@
+import re
 t = int(input())
 
+
 while t > 0:
-    x = input()
-    if x[-1] == '6' and x[-2] == '8':
+
+    txt = input()
+    x = re.search("86$", txt)
+    if x:
         print("YES")
     else:
         print("NO")
