@@ -7,7 +7,7 @@ for i in x:
     elif i.isupper():
         up += 1
 
-if low > up:
+if low >= up:
     print(x.lower())
 else:
     print(x.upper())

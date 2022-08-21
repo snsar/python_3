@@ -1,6 +1,6 @@
 t = int(input())
 
-while t:
+while t > 0:
     x = input()
     if x[-1] == '6' and x[-2] == '8':
         print("YES")

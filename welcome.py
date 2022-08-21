@@ -1,3 +1,1 @@
-x = input()
-
-print("Hello " + x + '!')
+print("Hello anh quyen \n" * 1000)
